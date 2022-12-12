@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!----hero Section start---->
+
+    <div id="home" class="hero">
+      <nav>
+        <h2 class="logo">James<span>Cook</span></h2>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#members">Members</a></li>
+          <li><a href="#fetch-api">FetchAPI</a></li>
+        </ul>
+      </nav>
+
+      <div id="menu" class="fas fa-bars"></div>
+
+      <div class="content">
+        <h4>Hello, my name is</h4>
+        <h1>James <span>Cook</span></h1>
+        <h3><span>Web Portfolio</span> Cyber Academy</h3>
+      </div>
+    </div>
+
+    <!----About section start---->
+    <section id="about" class="about">
+      <div class="main">
+        <img src="./img/jamescook.jpg" />
+        <div class="about-text">
+          <h2><span>about</span> Us</h2>
+          <h5>one of the <span>cyber academy groups</span></h5>
+          <p>
+            Kami adalah salah satu kelompok dari Study Grup Cyber Academy
+            Laboratorium Cyber Physical System, kami tergabung dalam kelompok
+            James Cook yang beranggotakan 4 orang. Ada Adam dari kelas TT-45-09,
+            Ilham dari kelas TT-45-10, Rifky dari kelas TT-45-07, dan Rafly dari
+            kelas TT-45-07.
+          </p>
+          <button type="button">Let's Talk</button>
+        </div>
+      </div>
+    </section>
+
+    <!-----service section start----------->
+    <div id="members" class="members">
+      <div class="title">
+        <h2>Our <span>Members</span></h2>
+      </div>
+
+      <div class="box">
+        <div class="card">
+          <img src="./img/rifky.png" alt="" />
+          <h5>Web Development</h5>
+          <div class="pra">
+            <p>
+              Every website should be built with two primary goals: Firstly, it
+              needs to work across all devices. Secondly, it needs to be fast as
+              possible.
+            </p>
+
+            <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./img/adam.png" alt="" />
+          <h5>Web Development</h5>
+          <div class="pra">
+            <p>
+              Every website should be built with two primary goals: Firstly, it
+              needs to work across all devices. Secondly, it needs to be fast as
+              possible.
+            </p>
+
+            <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./img/ilham2.png" alt="" />
+          <h5>Web Development</h5>
+          <div class="pra">
+            <p>
+              Every website should be built with two primary goals: Firstly, it
+              needs to work across all devices. Secondly, it needs to be fast as
+              possible.
+            </p>
+
+            <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./img/fadly2.png" alt="" />
+          <h5>Web Development</h5>
+          <div class="pra">
+            <p>
+              Every website should be built with two primary goals: Firstly, it
+              needs to work across all devices. Secondly, it needs to be fast as
+              possible.
+            </p>
+
+            <div class="social">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------ Fetch - API ------>
+    <div id="app">
+      <div class="api">
+        <h2>Fetch <span>API</span></h2>
+      </div>
+      <div class="form">
+        <input type="text" class="keyword" placeholder="Masukan Nama Kota" />
+        <button class="btn-search">Search</button>
+      </div>
+
+      <div id="container"></div>
+    </div>
+
+    <!------footer start--------->
+    <footer>
+      <p class="end">CopyRight By JamesCook Cyber Academy</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
