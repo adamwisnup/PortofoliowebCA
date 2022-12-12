@@ -6,7 +6,7 @@ const btnSearch = document.querySelector(".btn-search");
 const container = document.getElementById("container");
 
 btnSearch.onclick = () => {
-  fetch(`${weatherAPI}&q=${keyword.value}`)
+  fetch(`${weatherAPI}&q=${keyword.value}&aqi=no`)
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
