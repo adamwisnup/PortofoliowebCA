@@ -1,5 +1,5 @@
 const weatherAPI =
-  "http://api.weatherapi.com/v1/current.json?key=7e71b6f8993649078d1145132220906&aqi=no";
+  "http://api.weatherapi.com/v1/current.json?key=e6853ad8e5df4c17a2d95902221212";
 const keyword = document.querySelector(".keyword");
 const btnSearch = document.querySelector(".btn-search");
 
