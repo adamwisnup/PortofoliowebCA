@@ -1,12 +1,12 @@
 const weatherAPI =
-  "http://api.weatherapi.com/v1/current.json?key=e6853ad8e5df4c17a2d95902221212";
+  "https://api.weatherapi.com/v1/current.json?key=e6853ad8e5df4c17a2d95902221212";
 const keyword = document.querySelector(".keyword");
 const btnSearch = document.querySelector(".btn-search");
 
 const container = document.getElementById("container");
 
 btnSearch.onclick = () => {
-  fetch(`${weatherAPI}&q=${keyword.value}&aqi=no`)
+  fetch(`${weatherAPI}&q=${keyword.value}`)
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
