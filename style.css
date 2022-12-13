@@ -229,6 +229,9 @@ h5 {
 }
 .social {
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
 }
 .social a {
   width: 45px;
